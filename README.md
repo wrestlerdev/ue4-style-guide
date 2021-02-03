@@ -407,60 +407,14 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 > If you are using the prefix [naming convention](#1.2) above, using folders to contain assets of similar types such as `Meshes`, `Textures`, and `Materials` is a redundant practice as asset types are already both sorted by prefix as well as able to be filtered in the content browser.
 
 <a name="2e1"><a>
-### 2e1 Example Project Content Structure
-<pre style="color:red;">
-|-- Content
-    |-- <a href="#2.2">GenericShooter</a>
-        |-- Art
-        |   |-- Industrial
-        |   |   |-- Ambient
-        |   |   |-- Machinery
-        |   |   |-- Pipes
-        |   |-- Nature
-        |   |   |-- Ambient
-        |   |   |-- Foliage
-        |   |   |-- Rocks
-        |   |   |-- Trees
-        |   |-- Office
-        |-- Characters
-        |   |-- Bob
-        |   |-- Common
-        |   |   |-- <a href="#2.7">Animations</a>
-        |   |   |-- Audio
-        |   |-- Jack
-        |   |-- Steve
-        |   |-- <a href="#2.1.3">Zoe</a>
-        |-- <a href="#2.5">Core</a>
-        |   |-- Characters
-        |   |-- Engine
-        |   |-- <a href="#2.1.2">GameModes</a>
-        |   |-- Interactables
-        |   |-- Pickups
-        |   |-- Weapons
-        |-- Effects
-        |   |-- Electrical
-        |   |-- Fire
-        |   |-- Weather
-        |-- <a href="#2.4">Maps</a>
-        |   |-- Campaign1
-        |   |-- Campaign2
-        |-- <a href="#2.8">MaterialLibrary</a>
-        |   |-- Debug
-        |   |-- Metal
-        |   |-- Paint
-        |   |-- Utility
-        |   |-- Weathering
-        |-- Placeables
-        |   |-- Pickups
-        |-- Weapons
-            |-- Common
-            |-- Pistols
-            |   |-- DesertEagle
-            |   |-- RocketPistol
-            |-- Rifles
-</pre>
+### 2e1 Example Asset Folder Structure
 
-![Aligned By Wires](https://github.com/wrestlerdev/ue4-style-guide/raw/master/images/ASSET-FOLDERS.png "Aligned By Wires")
+![Asset folder structure](https://github.com/wrestlerdev/ue4-style-guide/raw/master/images/ASSET-FOLDERS.png "Folder for assets")
+
+<a name="2e2"><a>
+### 2e1 Example Project Content Structure
+
+![UE4 folder structure](https://github.com/wrestlerdev/ue4-style-guide/raw/master/images/ASSET-FOLDERS.png "UE4-FILES")
 
 The reasons for this structure are listed in the following sub-sections.
 

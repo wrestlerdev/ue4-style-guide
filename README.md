@@ -408,10 +408,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 
 <a name="2e1"><a>
 ### 2e1 Example Project Content Structure
-<pre>
-body {
-  color: red;
-}
+<pre style="color:red;">
 |-- Content
     |-- <a href="#2.2">GenericShooter</a>
         |-- Art

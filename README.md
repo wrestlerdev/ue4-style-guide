@@ -221,6 +221,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Blend Space             | BS_        |            |                                  |
 | Blend Space 1D          | BS_        |            |                                  |
 | Level Sequence          | LS_        |            |                                  |
+| Master Level Sequence   | MLS_       |            |                                  |
 | Morph Target            | MT_        |            |                                  |
 | Paper Flipbook          | PFB_       |            |                                  |
 | Rig                     | Rig_       |            |                                  |
@@ -249,6 +250,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Blueprint               | BP_        |            |                                  |
+| ChildBlueprint          | BPC_        |            |                                  |
 | Blueprint Component	  | BP_	       | Component  | I.e. BP_InventoryComponent       |
 | Blueprint Function Library | BPFL_   |            |                                  |
 | Blueprint Interface     | BPI_       |            |                                  |
@@ -366,12 +368,12 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Dialogue Wave           | DW_        |            |                                  |
 | Media Sound Wave        | MSW_       |            |                                  |
 | Reverb Effect           | Reverb_    |            |                                  |
-| Sound Attenuation       | ATT_       |            |                                  |
+| Sound Attenuation       | SAT_       |            |                                  |
 | Sound Class             |            |            | No prefix/suffix. Should be put in a folder called SoundClasses |
 | Sound Concurrency       |            | _SC        | Should be named after a SoundClass |
-| Sound Cue               | A_         | _Cue       |                                  |
+| Sound Cue               | SC_        |       |                                  |
 | Sound Mix               | Mix_       |            |                                  |
-| Sound Wave              | A_         |            |                                  |
+| Sound Wave              | SA_        |            |                                  |
 
 <a name="anc-ui"></a>
 <a name="1.2.11"></a>
@@ -390,7 +392,9 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Particle System         | PS_        |            |                                  |
+| Niagara System         | NS_        |            |                                  |
+| Niagara Emitter         | NE_        |            |                                  |
+| Niagara Module         | NM_        |            |                                  |
 | Material (Post Process) | PP_        |            |                                  |
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -414,7 +418,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 <a name="2e2"><a>
 ### 2e1 Example Project Content Structure
 
-![UE4 folder structure](https://github.com/wrestlerdev/ue4-style-guide/raw/master/images/ASSET-FOLDERS.png "UE4-FILES")
+![UE4 folder structure](https://github.com/wrestlerdev/ue4-style-guide/raw/master/images/UE4-FILES.png "UE4-FILES")
 
 The reasons for this structure are listed in the following sub-sections.
 
